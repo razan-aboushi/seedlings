@@ -27,14 +27,14 @@ const products = {
   ],
   tulips: [{
       name: "Red Tulip",
-      image: "plant.png",
+      image: "plant4.png",
       bgColor: "#fff",
       price: 6.0
     },
     {
       name: "Pink Tulip",
       image: "plant.png",
-      bgColor: "#fff",
+      bgColor: "#b62929",
       price: 7.0
     },
     {
@@ -124,7 +124,7 @@ function showProducts()
     products[selectedVariety].forEach(product =>
        {
       const li = document.createElement("li");
-      const element = "<img src='images/" + product.image + "' alt='" + product.image + "' style='width: 80px;' />";
+      const element = "<img src='images/" + product.image + "' alt='" + product.image + "' style='width: 50px;' />";
       const color = product.bgColor;
 
       content = element + `${product.name} - ${product.price} JD`;
