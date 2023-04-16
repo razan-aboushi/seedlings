@@ -179,7 +179,6 @@ footer .glyphicon {
 
 
 
-/* Add this CSS code to your styles.css file */
 
 #products-container {
   margin-top: 20px;
@@ -207,7 +206,6 @@ footer .glyphicon {
 }
 
 
-/* Add this CSS code to your styles.css file */
 
 select#plant-variety {
   font-size: 25px;
@@ -229,7 +227,7 @@ select#plant-variety {
 button {
   position: relative;
   padding: 15px 35px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   color: #2F5C2F;
   background-color: transparent;
@@ -291,4 +289,9 @@ button:hover .icon-2 {
   left: -80px;
   transform: rotate(90deg);
   z-index: 1;
+}
+
+button #plants{
+  text-decoration: none;
+  font-size: 17px;
 }
