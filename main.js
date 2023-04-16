@@ -9,13 +9,13 @@ const products = {
       name: "Flower Basket",
       image: "plant1.png",
       bgColor: "#ff8787",
-      price: 12.0
+      price: 5.0
     },
     {
       name: "Flower Bouquet",
       image: "plant2.png",
       bgColor: "#ffed00",
-      price: 8.0
+      price: 7.0
     },
     {
       name: "Flower Box",
